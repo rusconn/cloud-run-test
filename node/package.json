@@ -1,0 +1,14 @@
+{
+  "name": "node",
+  "license": "MIT",
+  "volta": {
+    "node": "18.16.0",
+    "yarn": "1.22.19"
+  },
+  "scripts": {
+    "start": "PORT=8080 node index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.17.0"
+  }
+}
